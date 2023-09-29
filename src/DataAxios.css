@@ -1,0 +1,30 @@
+.card-main {
+    display: block;
+    text-align: center;
+    padding: 22px 90px;
+    background: black;
+    border-radius: 10px;
+}
+p {
+    color: white;
+}
+.comments {
+    display: grid;
+    grid: auto/auto auto;
+    gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.main-heading {
+    text-align: center;
+    margin-top: 70px;
+}
+@media only screen and (max-width: 480px){
+.comments {
+    grid: auto/auto;
+    gap: 30px;
+}
+.card-main {
+    padding: 22px 10px;
+}
+}
